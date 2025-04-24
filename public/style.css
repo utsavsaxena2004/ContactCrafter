@@ -1,0 +1,190 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-image: url('Your image path'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+header {
+    background-image: url('1.png');
+    background-size: cover;
+    
+    background-repeat:no-repeat;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 50vh;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 100px;
+}
+
+#search-container {
+    margin-top: 10px;
+}
+
+#search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+#search-button {
+    padding: 8px 12px;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #4cae4c;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-list {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact-list h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-item {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-details {
+    flex-grow: 1;
+}
+
+.contact-details p {
+    margin: 5px 0;
+}
+
+.contact-actions button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
+
+.edit-button {
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+.delete-button {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+#add-contact-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: flex-start;
+}
+
+#add-contact-button:hover {
+    background-color: #0056b3;
+}
+
+#add-contact-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#add-contact-form h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#add-contact-form form {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    align-items: center;
+}
+
+#add-contact-form form label {
+    font-weight: bold;
+}
+
+#add-contact-form form input[type="text"],
+#add-contact-form form input[type="email"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#add-contact-form form button[type="submit"],
+#add-contact-form form button[type="button"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add-contact-form form button[type="submit"] {
+    background-color: #5cb85c;
+    color: #fff;
+}
+
+#add-contact-form form button[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+#add-contact-form form button[type="button"] {
+    background-color: #f0ad4e;
+    color: #fff;
+}
+
+#add-contact-form form button[type="button"]:hover {
+    background-color: #eea236;
+}
+
+#message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}

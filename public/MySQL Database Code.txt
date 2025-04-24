@@ -1,0 +1,21 @@
+
+// The code for the My SQL :-
+Change database name from festival to whatever u have given //
+
+CREATE DATABASE IF NOT EXISTS festival;
+
+USE festival;
+
+CREATE TABLE IF NOT EXISTS Contacts (
+    ContactID INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Email VARCHAR(100),
+    PhoneNumber VARCHAR(15)
+);
+
+INSERT INTO Contacts (Name, Email, PhoneNumber) 
+VALUES 
+('Utsav', 'utsav@example.com', '1234567890'),
+('Festival', 'festival@example.com', '9876543210');
+
+SELECT * FROM Contacts;
