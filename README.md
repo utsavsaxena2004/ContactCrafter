@@ -29,7 +29,7 @@ The project uses:
 
 ## 📸 Screenshot
 
-![UI Preview](89ad427d-286b-4584-a1ec-10598c702653.jpg)
+![UI Preview](https://github.com/utsavsaxena2004/ContactCrafter/blob/29a53c27295bc60e852b355338915622a916207e/UI%20Preview.png)
 
 ---
 
